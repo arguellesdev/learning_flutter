@@ -1,16 +1,11 @@
 class Temperature {
   Temperature.celsius(this.celsius); // Constructor para inicializar en Celsius
-  Temperature.farenheit(double farenheit)
-      : celsius = (farenheit - 32) /
-            1.8; // Constructor para inicializar en Fahrenheit y convertir a Celsius
+  Temperature.farenheit(double farenheit)  : celsius = (farenheit - 32) / 1.8;
   double celsius;
 
-  double get farenheit =>
-      celsius * 1.8 +
-      32; // Método getter para obtener la temperatura en Fahrenheit
-  set farenheit(double farenheit) =>
-      (farenheit - 32) /
-      1.8; // Método setter para establecer la temperatura en Fahrenheit
+  double get farenheit => celsius * 1.8 + 32; // Método getter para obtener la temperatura en Fahrenheit
+    set farenheit(double farenheit)
+    => celsius = (farenheit - 32) / 1.8; // Método setter para establecer la temperatura en Fahrenheit
 
 /*La anotación @override en Dart es opcional pero es una buena práctica usarla
 para indicar que el método que sigue está destinado a sobrescribir un método de
@@ -44,8 +39,7 @@ void main() {
       90); // Crear una instancia de Temperature con 90 grados Fahrenheit
   print(temp.celsius); // Imprimir el valor en Celsius de la primera instancia
   print(temp); //Imprime la representación predeterminada del objeto
-  print(temp1
-      .farenheit); // Imprimir el valor en Fahrenheit de la segunda instancia
+  print(temp1.farenheit); // Imprimir el valor en Fahrenheit de la segunda instancia
   print(temp1); //Imprime la representación predeterminada del objeto
   print(temp1.celsius); // Imprimir el valor en Celsius de la segunda instancia
 }
