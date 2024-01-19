@@ -1,3 +1,11 @@
+collection
+2.18
+file:///Users/shabelitta/.pub-cache/hosted/pub.dev/collection-1.18.0/
+file:///Users/shabelitta/.pub-cache/hosted/pub.dev/collection-1.18.0/lib/
+equatable
+2.12
+file:///Users/shabelitta/.pub-cache/hosted/pub.dev/equatable-2.0.5/
+file:///Users/shabelitta/.pub-cache/hosted/pub.dev/equatable-2.0.5/lib/
 flutter_lints
 3.0
 file:///Users/shabelitta/.pub-cache/hosted/pub.dev/flutter_lints-3.0.1/
@@ -6,6 +14,10 @@ lints
 3.0
 file:///Users/shabelitta/.pub-cache/hosted/pub.dev/lints-3.0.0/
 file:///Users/shabelitta/.pub-cache/hosted/pub.dev/lints-3.0.0/lib/
+meta
+2.12
+file:///Users/shabelitta/.pub-cache/hosted/pub.dev/meta-1.11.0/
+file:///Users/shabelitta/.pub-cache/hosted/pub.dev/meta-1.11.0/lib/
 test
 2.12
 file:///Users/shabelitta/development/arguellesdev/flutter_learning/fundamentals/andreabizzotto/classes/
